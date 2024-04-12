@@ -1,3 +1,68 @@
-html {
-    background: orange;
+#animal-de-rua-header{
+    color: orange;
+}
+
+#tabs {
+    background-color: #EFB23E;
+    border: 2px solid black;
+    padding: 30px;
+    display: flex;
+    justify-content: end;
+    font-weight: bold;
+}
+
+* {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.tab {
+    color: inherit; 
+    text-decoration: none;
+    margin-left:30px;
+    margin-top:25px;
+}
+
+.box{
+    color:white;
+    padding-left: 30px;
+    padding: 5px;
+    text-align: center;
+}
+
+#logo {
+    width: 100px;
+    margin-right: 200px;
+    display:flex;
+    justify-content: left;
+}
+
+#a-ong{
+    background-color: #5039A5;
+}
+
+#adote{
+    background-color: #26938B;
+}
+#contribua{
+    background-color: #35599F;
+}
+
+#castracao {
+    background-color: #EFB23E;
+}
+
+footer {
+    background-color: black;
+    color:white;
+    text-align: center;
+    padding: 5px;
+}
+
+.box-img{
+    width: 200px;
+    height: 200px;
+}
+
+.box-txt{
+    display:inline;
 }
